@@ -1,0 +1,34 @@
+.checkout{
+    display:flex;
+    padding:20px;
+    background-color:white;
+    height:max-content;
+}
+.checkout_add{
+    width:100%;
+    margin-bottom:10px;
+}
+.basket_heading{
+    margin-left: 18px;
+}
+.basket_para{
+    margin-left: 18px;
+}
+.item_basket1{
+    margin-left: 18px;
+}
+.checkout_add{
+    width:100%;
+    /* max-width: 1200px; */
+    margin-bottom:10px;
+    height:150px;
+}
+.checkout_right{
+    display:flex;
+    margin-left:20px;
+}
+.checkout_title{
+    margin-right:10px;
+    padding:10px;
+    border-bottom: 1px solid lightgray;
+}
