@@ -12,7 +12,7 @@ import { auth } from './firebase';
 function App() {
   const [{ user }, dispatch] = useStateValue();
   // useEffect <<<<<<<<<<<<< POWERFUL
-  // Piece of code which runs on a given condition
+  // Piece of code which runs on a given conditions
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
       if (authUser) {
